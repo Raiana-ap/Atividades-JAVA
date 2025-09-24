@@ -1,12 +1,5 @@
 package exc3;
 
-/*Crie a classe base Funcionario com protected String nome e protected
-BigDecimal salario (com getters). Crie Gerente e Desenvolvedor que
-sobrescrevem calcularBonus(): 20% do salário para gerente e 10% para
-desenvolvedor. Garanta que salários sejam positivos. Em um programa, coloque
-diferentes funcionários em uma coleção do tipo List<Funcionario> e exiba o bônus
-de cada um.*/
-
 import java.math.BigDecimal;
 
 abstract class Funcionario {
